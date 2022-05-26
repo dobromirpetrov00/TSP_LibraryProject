@@ -1,0 +1,21 @@
+﻿<Window x:Class="TSP_Proekt.AdminMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TSP_Proekt"
+        mc:Ignorable="d"
+        Title="Admin Menu" Height="600" Width="1024"
+        ResizeMode="CanMinimize"
+        WindowStartupLocation="CenterScreen">
+    <Grid Loaded="AdminMenu_Load">
+        <Grid.Background>
+            <ImageBrush ImageSource="/operatorlogin.jpg"/>
+        </Grid.Background>
+        <Button Content="Create an Operator" HorizontalAlignment="Left" Margin="60,174,0,0" VerticalAlignment="Top" Height="77" Width="262" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="CreateOperatorButton"/>
+        <Button Content="References" HorizontalAlignment="Left" Margin="693,174,0,0" VerticalAlignment="Top" Height="77" Width="262" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="ReferencesButton"/>
+        <Button Content="Book Options" HorizontalAlignment="Center" Margin="0,174,0,0" VerticalAlignment="Top" Height="77" Width="261" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="BookOptionsButton"/>
+        <Button Content="Go Back" HorizontalAlignment="Center" Margin="0,392,0,0" VerticalAlignment="Top" Height="77" Width="260" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="GoBackButton"/>
+
+    </Grid>
+</Window>

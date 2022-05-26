@@ -1,0 +1,21 @@
+﻿<Window x:Class="TSP_Proekt.ReferencesOperator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TSP_Proekt"
+        mc:Ignorable="d"
+        Title="References" Height="600" Width="1024"
+        ResizeMode="CanMinimize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/operatorlogin.jpg"/>
+        </Grid.Background>
+        <Button Content="Go Back" HorizontalAlignment="Center" Margin="0,392,0,0" VerticalAlignment="Top" Height="77" Width="260" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="GoBackButton"/>
+        <Button Content="Submitted Forms" HorizontalAlignment="Left" Margin="202,0,0,0" VerticalAlignment="Center" Height="76" Width="260" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="SubmittedFormsButton"/>
+        <Button Content="Book Info" HorizontalAlignment="Left" Margin="202,118,0,0" VerticalAlignment="Top" Height="77" Width="260" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="BookInfoButton"/>
+        <Button Content="User Info" HorizontalAlignment="Left" Margin="562,118,0,0" VerticalAlignment="Top" Height="77" Width="260" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="UserInfoButton"/>
+        <Button Content="Lend Book Info" HorizontalAlignment="Left" Margin="562,0,0,0" VerticalAlignment="Center" Height="77" Width="260" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="LendBookInfoButton"/>
+    </Grid>
+</Window>

@@ -1,0 +1,5 @@
+2022-05-21 16:12:59,906 [1] INFO TSP_Proekt.App -         =============  Started Logging  =============        
+2022-05-21 16:13:07,794 [1] INFO TSP_Proekt.AdminLogin - Administrator 'dobromir' logged successfully!
+2022-05-21 16:13:11,878 [1] INFO TSP_Proekt.BookInfo - Got info for books successfully!
+2022-05-21 16:13:14,163 [1] INFO TSP_Proekt.SubmittedForms - Got info for submitted forms successfully!
+2022-05-21 16:13:30,587 [1] ERROR TSP_Proekt.ArchiveBook - Tried to archive a book with non-existing ID!

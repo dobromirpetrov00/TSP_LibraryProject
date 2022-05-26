@@ -1,0 +1,23 @@
+﻿<Window x:Class="TSP_Proekt.OperatorMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TSP_Proekt"
+        mc:Ignorable="d"
+        Title="Operator Menu" Height="600" Width="1024"
+        ResizeMode="CanMinimize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/operatorlogin.jpg"/>
+        </Grid.Background>
+        <Button Content="Create a Reader Profile" HorizontalAlignment="Left" Margin="176,145,0,0" VerticalAlignment="Top" Height="77" Width="286" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="CreateReaderButton"/>
+        <Button Content="Sign Out a Reader" HorizontalAlignment="Left" Margin="562,145,0,0" VerticalAlignment="Top" Height="77" Width="286" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="SignOutReaderButton"/>
+        <Button Content="Give a Book" HorizontalAlignment="Left" Margin="176,0,0,0" VerticalAlignment="Center" Height="77" Width="286" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="GiveBookButton"/>
+        <Button Content="Get Back a Book" HorizontalAlignment="Left" Margin="562,0,0,0" VerticalAlignment="Center" Height="77" Width="286" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="GetBackBookButton"/>
+        <Button Content="References" HorizontalAlignment="Left" Margin="176,361,0,0" VerticalAlignment="Top" Height="77" Width="286" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="ReferencesButton"/>
+        <Button Content="Go Back" HorizontalAlignment="Left" Margin="562,361,0,0" VerticalAlignment="Top" Height="77" Width="286" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="GoBackButton"/>
+
+    </Grid>
+</Window>

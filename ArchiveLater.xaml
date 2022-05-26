@@ -1,0 +1,21 @@
+﻿<Window x:Class="TSP_Proekt.ArchiveLater"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TSP_Proekt"
+        mc:Ignorable="d"
+        Title="Archive a Book for Later" Height="600" Width="1024"
+        ResizeMode="CanMinimize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/operatorlogin.jpg"/>
+        </Grid.Background>
+        <Button Content="Go Back" HorizontalAlignment="Center" Margin="0,429,0,0" VerticalAlignment="Top" Height="77" Width="260" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="GoBackButton"/>
+        <Button Content="Archive Book for Later" HorizontalAlignment="Center" Margin="0,292,0,0" VerticalAlignment="Top" Height="77" Width="280" Background="#FFD4891C" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="Black" BorderThickness="3,3,3,3" Click="ArchiveBookButton"/>
+        <Label Content="BOOK ID" HorizontalAlignment="Left" Margin="352,184,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" FontStyle="Italic" Foreground="Black" Background="#FFD4891C" VerticalContentAlignment="Center" Height="38" Width="106" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="bookid" HorizontalAlignment="Left" Margin="458,184,0,0" VerticalAlignment="Top" Width="214" FontStyle="Italic" FontWeight="Bold" Height="38" FontSize="22"/>
+        <TextBlock x:Name="checkCorr" HorizontalAlignment="Center" Margin="0,103,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontSize="36"/>
+    </Grid>
+</Window>
